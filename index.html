@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.min.js"></script>
+</head>
+
+<Body>
+<script>
+var xhr = new XMLHttpRequest;
+xhr.open('GET', 'https://edgarmvt.github.io/muestra1.txt', true);
+xhr.onload = function (){
+    document.write( xhr.responseText );
+};
+
+xhr.send(null);
+</script>
+</body>
+</head>
+</html>
